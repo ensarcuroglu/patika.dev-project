@@ -1,0 +1,49 @@
+Merge Sort adımları:
+
+Adım 1: Dizi ilk olarak ortadan ikiye bölünür.
+
+Sol alt-dizi: [16, 21, 11]
+Sağ alt-dizi: [8, 12, 22]
+
+Adım 2: Her iki alt-dizi de aynı işlemi tekrarlar.
+
+Sol alt-dizi bölünür:
+Sol alt-dizi: [16]
+Sağ alt-dizi: [21, 11]
+
+Sağ alt-dizi bölünür:
+Sol alt-dizi: [21]
+Sağ alt-dizi: [11]
+
+Sağ alt-dizi birleştirilir: [11, 21]
+
+Adım 3: Sol alt-dizi birleştirilir: [16]
+
+Şimdi, sol alt-dizi: [16], sağ alt-dizi: [11, 21] olarak sıralanmış durumda.
+
+Adım 4: Sağ alt-dizi bölünür:
+Sol alt-dizi: [8]
+Sağ alt-dizi: [12, 22]
+
+Sağ alt-dizi bölünür:
+Sol alt-dizi: [12]
+Sağ alt-dizi: [22]
+
+Sağ alt-dizi birleştirilir: [12, 22]
+
+Adım 5: Sol alt-dizi birleştirilir: [8]
+
+Şimdi, sol alt-dizi: [8], sağ alt-dizi: [12, 22] olarak sıralanmış durumda.
+
+Adım 6: Şimdi, iki alt-dizi birleştirilir:
+
+Sol alt-dizi: [8, 16]
+Sağ alt-dizi: [11, 12, 22]
+
+Adım 7: Son olarak, iki alt-dizi birleştirilir ve sıralanmış dizi elde edilir:
+
+Son dizi: [8, 11, 12, 16, 21, 22]
+
+-------------------------------------------------------------
+
+Merge Sort'un Big-O gösterimi O(n log n)’dir.
