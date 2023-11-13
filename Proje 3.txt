@@ -1,0 +1,75 @@
+Root eleman olarak başlayalım: 7
+
+Şu an ağaç şu şekildedir: [7]
+5'i ekleyelim (7'den küçük olduğu için sola gider):
+
+Şu an ağaç şu şekildedir: [7]
+/
+[5]
+1'i ekleyelim (7'den küçük olduğu için sola gider):
+
+Şu an ağaç şu şekildedir: [7]
+/
+[5]
+/
+[1]
+8'i ekleyelim (7'den büyük olduğu için sağa gider):
+
+Şu an ağaç şu şekildedir: [7]
+/
+[5] [8]
+/
+[1]
+3'ü ekleyelim (7'den küçük olduğu için sola gider, 5'ten büyük olduğu için 5'in sağına gider):
+
+Şu an ağaç şu şekildedir: [7]
+/
+[5] [8]
+/
+[1] [ ]
+[3]
+6'yı ekleyelim (7'den küçük olduğu için sola gider, 5'ten büyük olduğu için 5'in sağına gider):
+
+Şu an ağaç şu şekildedir: [7]
+/
+[5] [8]
+/
+[1] [ ]
+[3]
+/
+[6]
+0'ı ekleyelim (7'den küçük olduğu için sola gider, 5'ten küçük olduğu için 5'in soluna gider):
+
+Şu an ağaç şu şekildedir: [7]
+/
+[5] [8]
+/
+[1] [ ]
+/
+[0] [3]
+/
+[6]
+9'u ekleyelim (7'den büyük olduğu için sağa gider, 8'den büyük olduğu için 8'in sağına gider):
+
+Şu an ağaç şu şekildedir: [7]
+/
+[5] [8]
+/ \
+[1] [ ] [9]
+/
+[0] [3]
+/
+[6]
+Son olarak 4'ü ekleyelim (7'den küçük olduğu için sola gider, 5'ten büyük olduğu için 5'in sağına gider):
+
+Şu an ağaç şu şekildedir: [7]
+/
+[5] [8]
+/ \
+[1] [ ] [9]
+/
+[0] [3]
+/
+[6]
+[4]
+Bu, verilen dizinin Binary Search Tree aşamalarını göstermektedir. BST, her zaman her elemanı sıralı bir şekilde yerleştirir ve her eleman, kökten başlayarak ağacın düğümlerinde sıralı bir şekilde bulunur.
