@@ -1,0 +1,25 @@
+Proje 1
+
+1- [22, 27, 16, 2, 18, 6] (Başlangıç)
+2- [22, 27, 16, 2, 18, 6] (27, 22'nin sağına geçti)
+3- [16, 22, 27, 2, 18, 6] (16, 22 ve 27'nin soluna geçti)
+4- [2, 16, 22, 27, 18, 6] (2, 16, 22 ve 27'nin soluna geçti)
+5- [2, 16, 18, 22, 27, 6] (18, 22 ve 27'nin soluna geçti)
+6- [2, 6, 16, 18, 22, 27] (6, 16, 18, 22 ve 27'nin soluna geçti) (Sıralama tamamlandı)
+
+--------------------------------------------------------------------------------
+
+Insertion Sort algoritmasının zaman karmaşıklığı O(n^2)’dir.
+
+--------------------------------------------------------------------------------
+
+Dizi sıralandıktan sonra 18 sayısı için:
+
+Average case: Aradığımız sayının ortada olması durumunda, yani 18 dizinin ortasında bir yerde olduğunda O(n) zaman alır.
+Worst case: Aradığımız sayının sonda olması durumunda, yani 18 dizinin sonunda olduğunda yine O(n) zaman alır.
+Best case: Aradığımız sayının dizinin en başında olması durumunda, yani 18 dizinin başında olduğunda O(1) zaman alır.
+
+1- [2, 3, 5, 8, 7, 9, 4, 15, 6] (En küçük eleman olan 2, ilk sıraya yerleştirildi.)
+2- [2, 3, 4, 8, 7, 9, 5, 15, 6] (En küçük eleman olan 4, 2'nin sonrasına yerleştirildi.)
+3- [2, 3, 4, 5, 7, 9, 8, 15, 6] (En küçük eleman olan 5, 4'ün sonrasına yerleştirildi.)
+4- [2, 3, 4, 5, 6, 9, 8, 15, 7] (En küçük eleman olan 6, 5'in sonrasına yerleştirildi.)
